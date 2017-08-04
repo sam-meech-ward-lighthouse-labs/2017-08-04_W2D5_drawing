@@ -15,6 +15,7 @@
 		22D116B51F352C6600CC9A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116B41F352C6600CC9A8D /* main.m */; };
 		22D116BF1F352C6600CC9A8D /* DrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116BE1F352C6600CC9A8D /* DrawingTests.m */; };
 		22D116CA1F352C6600CC9A8D /* DrawingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116C91F352C6600CC9A8D /* DrawingUITests.m */; };
+		22D116DA1F35313900CC9A8D /* FingerSomething.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116D81F352C8100CC9A8D /* FingerSomething.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		22D116C51F352C6600CC9A8D /* DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D116C91F352C6600CC9A8D /* DrawingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingUITests.m; sourceTree = "<group>"; };
 		22D116CB1F352C6600CC9A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D116D71F352C8100CC9A8D /* FingerSomething.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerSomething.h; sourceTree = "<group>"; };
+		22D116D81F352C8100CC9A8D /* FingerSomething.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerSomething.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				22D116A61F352C6600CC9A8D /* AppDelegate.m */,
 				22D116A81F352C6600CC9A8D /* ViewController.h */,
 				22D116A91F352C6600CC9A8D /* ViewController.m */,
+				22D116D71F352C8100CC9A8D /* FingerSomething.h */,
+				22D116D81F352C8100CC9A8D /* FingerSomething.m */,
 				22D116AB1F352C6600CC9A8D /* Main.storyboard */,
 				22D116AE1F352C6600CC9A8D /* Assets.xcassets */,
 				22D116B01F352C6600CC9A8D /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D116AA1F352C6600CC9A8D /* ViewController.m in Sources */,
+				22D116DA1F35313900CC9A8D /* FingerSomething.m in Sources */,
 				22D116B51F352C6600CC9A8D /* main.m in Sources */,
 				22D116A71F352C6600CC9A8D /* AppDelegate.m in Sources */,
 			);
